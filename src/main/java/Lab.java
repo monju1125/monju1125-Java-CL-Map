@@ -54,7 +54,8 @@ public class Lab {
      * @return the value associated with key in map.
      */
     public String getValueFromKey(Map<Integer, String> map, int key){
-        return map.get("key");
+        String value = map.get("key");
+        return value;
     }
 
     /**
